@@ -8,8 +8,6 @@
     8  kubectl get pods -n kube-system 
     9  kubectl create deployment nginx --image=nginx:1.18-alpine
    10  kubectl get pods
-   11  docker images | grep ubectl create deployment nginx --image=nginx:1.18-alpine
-   12  docker images | grep nginx:1.18-alpine
    13  docker images | grep nginx
    14  kubectl get all
    15  docker ps | grep lnrbf
@@ -29,3 +27,4 @@
    29  kubectl describe pods httpd-757fb56c8d-t9sfz
    30  kubectl get all
    31  docker ps | grep t9sfz
+kubectl scale deploy nginx --replicas=3
