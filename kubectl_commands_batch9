@@ -1,0 +1,31 @@
+ minikube start
+    2  minikube version
+    3  kubectl get nodes
+    4  kubectl describe node
+    5  kubectk get all
+    6  kubectl get all
+    7  kubectl get pods
+    8  kubectl get pods -n kube-system 
+    9  kubectl create deployment nginx --image=nginx:1.18-alpine
+   10  kubectl get pods
+   11  docker images | grep ubectl create deployment nginx --image=nginx:1.18-alpine
+   12  docker images | grep nginx:1.18-alpine
+   13  docker images | grep nginx
+   14  kubectl get all
+   15  docker ps | grep lnrbf
+   16  kubectl get pods
+   17  kubectl describe lnrbf
+   18  kubectl describe nginx-69c8944786-lnrbf
+   19  kubectl describe deplyment nginx
+   20  kubectl describe deployment nginx
+   21  kubectl get pods
+   22  kubectl get all
+   23  kubectl describe pods pod/nginx-69c8944786-lnrbf 
+   24  kubectl get pods
+   25  kubectl describe pods nginx-69c8944786-lnrbf
+   26  docker ps | grep lnrbf
+   27  kubectl create deployment httpd --image=httpd
+   28  kubectl get pods
+   29  kubectl describe pods httpd-757fb56c8d-t9sfz
+   30  kubectl get all
+   31  docker ps | grep t9sfz
